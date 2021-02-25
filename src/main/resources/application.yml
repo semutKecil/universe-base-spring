@@ -1,1 +1,1 @@
-client.id-generator: ${ID_GENERATOR:id-generator:8080}
+client.id-generator: ${ID_GENERATOR:localhost/id-generator}

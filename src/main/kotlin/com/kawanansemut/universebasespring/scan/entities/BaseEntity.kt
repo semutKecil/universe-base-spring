@@ -27,7 +27,7 @@ abstract class BasicEntity : Serializable, EntityWithId {
 
     @JsonIgnore
     @Transient
-    private var _beforeUpdate: Map<String, Any>? = null
+    var _beforeUpdate: Map<String, Any>? = null
 
     @PostLoad
     fun afterLoad() {
