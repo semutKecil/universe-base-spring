@@ -1,1 +1,5 @@
 client.id-generator: ${ID_GENERATOR:localhost/id-generator}
+keycloak:
+  addr: 'http://keycloak:8080'
+  master.username: admin
+  master.passwotd: admin
