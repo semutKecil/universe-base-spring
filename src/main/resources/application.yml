@@ -1,0 +1,1 @@
+client.id-generator: ${ID_GENERATOR:id-generator:8080}
